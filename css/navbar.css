@@ -19,13 +19,6 @@
   box-shadow: none;
 }
 
-@media (max-width: 991px) {
-  /* .navbar-nav {
-    border: 1px solid var(--bs-blue);
-    border-top: none;
-  } */
-}
-
 .nav-link {
   position: relative;
   font-size: 1.4rem;
@@ -58,6 +51,13 @@
   bottom: 5px;
   right: 5px;
   transition: all 0.3s ease-in;
+}
+
+@media (max-width: 991px) {
+  .nav-link::before,
+  .nav-link::after {
+    content: none !important;
+  }
 }
 
 .nav-link:hover::before {
