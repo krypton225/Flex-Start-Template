@@ -1,0 +1,86 @@
+.home {
+  height: 100vh;
+  margin-top: 6.2rem !important;
+  background-image: url("../images/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .home {
+    margin-top: 6.3rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .home .container .row {
+    text-align: center;
+    margin: auto;
+    margin-top: 4.5rem !important;
+  }
+}
+
+.home .col-lg-7 p:nth-child(1) {
+  color: #012970 !important;
+}
+
+.home .col-lg-7 p:nth-child(2) {
+  width: 80%;
+  margin: 2.5rem 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .home .col-lg-7 p:nth-child(2) {
+    width: 100%;
+  }
+}
+
+.home .col-lg-5 img {
+  animation-name: animate-home-pic;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.home .col-lg-7 p:nth-child(2) + .btn-custom {
+  width: 17rem;
+}
+
+.fa-long-arrow-alt-right {
+  animation-name: animate-arrow;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate-arrow {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-6px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-home-pic {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

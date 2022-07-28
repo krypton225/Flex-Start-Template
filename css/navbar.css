@@ -1,3 +1,9 @@
+#mainNavBar {
+  z-index: 1000;
+  background-color: white !important;
+  box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
+}
+
 .navbar-brand {
   display: flex;
   justify-content: center;
@@ -75,6 +81,7 @@
 
 .navbar-nav + a {
   display: inline-block;
+  border: none;
   padding: 8px 17px;
   margin-left: 8px;
   font-size: 1.2rem;
