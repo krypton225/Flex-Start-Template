@@ -1,0 +1,34 @@
+.about .row .col-lg-6:nth-child(1) {
+  padding: 3.6rem 2.1rem;
+  background-color: #f6f9ff;
+}
+
+.about .row .col-lg-6:nth-child(1) p:nth-child(1) {
+  color: #4154f1;
+  font-size: 1.3rem;
+}
+
+.about .row .col-lg-6:nth-child(1) p:nth-child(2) {
+  color: #012970;
+  font-size: 2.1rem;
+  line-height: 1.3;
+}
+
+.about .row .col-lg-6:nth-child(1) p:nth-child(3) {
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
+
+.read-more {
+  font-size: 1.4rem;
+}
+
+.about .row .col-lg-6 img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  .about .row .col-lg-6 img {
+    transform: scale(1);
+  }
+}

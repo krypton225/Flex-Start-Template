@@ -81,6 +81,11 @@ img {
   object-fit: cover;
 }
 
+.pad-y-140 {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
 .bx-shadow {
   box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
 }
@@ -93,4 +98,9 @@ img {
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
