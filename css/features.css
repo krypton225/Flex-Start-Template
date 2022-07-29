@@ -1,0 +1,45 @@
+.one-feat {
+  width: 100%;
+  margin-top: 14px;
+  padding: 1.1rem 0.6rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0 30px rgba(1, 42, 112, 0.034);
+}
+
+@media (max-width: 991px) {
+  .cont-feat {
+    margin-top: 2rem;
+  }
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  margin-left: 6px;
+  position: relative;
+  border: 1px solid #e1e1e1;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.one-feat:hover .checkbox {
+  background-color: #4154f1;
+  color: white;
+}
+
+.checkbox + p {
+  line-height: 30px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
