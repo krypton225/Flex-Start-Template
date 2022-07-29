@@ -1,0 +1,37 @@
+.my-card {
+  height: 38rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 1px rgba(185, 185, 185, 0.082);
+  transition: all 0.4s ease-in-out;
+}
+
+.my-card:hover {
+  box-shadow: 0 1px 4px 1px rgba(49, 49, 49, 0.082);
+}
+
+.our-values .row .col-lg-4 img {
+  width: 56%;
+  transition: transform 0.4s ease-in;
+}
+
+.my-card:hover img {
+  transform: scale(1.12);
+}
+
+.our-values .row .col-lg-4 p {
+  width: 90%;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .our-values .row .col-lg-4 p {
+    width: 100%;
+  }
+}
