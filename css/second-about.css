@@ -52,3 +52,9 @@
 .top-desc-2 {
   font-size: 1.3rem !important;
 }
+
+@media (max-width: 991px) {
+  .second-about .col-lg-6:nth-child(2) {
+    margin-top: 4rem;
+  }
+}
