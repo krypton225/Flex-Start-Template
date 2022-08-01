@@ -1,0 +1,54 @@
+.custom-nav {
+  border: none;
+}
+
+.panel .custom-nav:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+.panel .custom-nav .nav-link:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+.custom-nav button {
+  border: none !important;
+  font-size: 1.2rem !important;
+  padding: 6px;
+}
+
+.custom-nav button:hover::after,
+.custom-nav button:hover::before {
+  content: none !important;
+}
+
+.custom-nav button.active {
+  border-bottom: 2px solid var(--bs-nav-link-color) !important;
+  outline: none !important;
+}
+
+.top-desc {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.7rem;
+}
+
+.top-ti {
+  margin: 1.8rem 0;
+}
+
+.first-checked,
+.second-checked {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left: 6px;
+}
+
+.tab-pane .fa-check {
+  font-size: 1.5rem;
+}
+
+.top-desc-2 {
+  font-size: 1.3rem !important;
+}
