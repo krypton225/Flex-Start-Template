@@ -1,0 +1,167 @@
+.service {
+  width: 90%;
+  height: 34rem;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+
+.service::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ser-first::after {
+  background-color: #2db6fa;
+}
+
+.ser-second::after {
+  background-color: #f68c09;
+}
+
+.ser-third::after {
+  background-color: #08da4e;
+}
+
+.ser-fourth::after {
+  background-color: #e9222c;
+}
+
+.ser-fifth::after {
+  background-color: #b50edf;
+}
+
+.ser-sixth::after {
+  background-color: #f51f9c;
+}
+
+.service:hover {
+  color: white;
+}
+
+.ser-first:hover {
+  background-color: #2db6fa;
+}
+
+.ser-second:hover {
+  background-color: #f68c09;
+}
+
+.ser-third:hover {
+  background-color: #08da4e;
+}
+
+.ser-fourth:hover {
+  background-color: #e9222c;
+}
+
+.ser-fifth:hover {
+  background-color: #b50edf;
+}
+
+.ser-sixth:hover {
+  background-color: #f51f9c;
+}
+
+.icon {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser-first .icon {
+  background-color: #dbf3fe;
+}
+
+.ser-second .icon {
+  background-color: #fde3c4;
+}
+
+.ser-third .icon {
+  background-color: #cffddf;
+}
+
+.ser-fourth .icon {
+  background-color: #fef7f8;
+}
+
+.ser-fifth .icon {
+  background-color: #f8e4fd;
+}
+
+.ser-sixth .icon {
+  background-color: #feecf7;
+}
+
+.service:hover .icon {
+  background-color: white;
+}
+
+.service .icon i {
+  font-size: 3.2rem;
+}
+
+.ser-first .icon i {
+  color: #2db6fa;
+}
+
+.ser-second .icon i {
+  color: #f68c09;
+}
+
+.ser-third .icon i {
+  color: #08da4e;
+}
+
+.ser-fourth .icon i {
+  color: #e9232d;
+}
+
+.ser-fifth .icon i {
+  color: #b50edf;
+}
+
+.ser-sixth .icon i {
+  color: #f51f9c;
+}
+
+.service__title {
+  margin: 1.4rem 0;
+}
+
+.service p {
+  width: 80%;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+}
+
+.service a.read-more {
+  display: inline-block;
+  color: black;
+}
+
+.service i.fa-arrow-right {
+  display: inline-block !important;
+  margin-left: 6px;
+  color: black;
+}
+
+.service:hover a.read-more,
+.service:hover i.fa-arrow-right {
+  color: white;
+}
