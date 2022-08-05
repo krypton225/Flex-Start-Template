@@ -1,3 +1,11 @@
+document.querySelectorAll(".navbar-nav li").forEach((link) => {
+  link.addEventListener("click", () => {
+    document.getElementById("navbarNav").classList.remove("show");
+  });
+});
+
+// * ================================================================
+
 document.querySelectorAll('button[data-bs-toggle="tab"]').forEach((t, i) => {
   t.addEventListener("show.bs.tab", function (e) {
     let targetClass = t.dataset.bsTarget;
