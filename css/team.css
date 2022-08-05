@@ -1,0 +1,87 @@
+.team {
+  overflow: hidden;
+}
+
+.person-team {
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.person-team:hover {
+  transform: scale(1.1);
+}
+
+.pic-team-person {
+  position: relative;
+  overflow: hidden;
+}
+
+.pic-team-person img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.pic-team-person,
+.pic-team-person img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.shape-team-pic {
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  z-index: 11;
+}
+
+.social-team-person {
+  width: 3.3rem;
+  height: 60%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: -20%;
+  top: 11%;
+  background: rgba(255, 255, 255, 0.712) !important;
+  font-size: 1.3rem;
+  transform: translateX(-10%);
+  transition: right 0.3s ease-in 0.2s;
+}
+
+.social-team-person a {
+  color: #6f83a6 !important;
+}
+
+.person-team:hover .social-team-person {
+  right: 4%;
+}
+
+.info-team-person {
+  padding-top: 2rem;
+  background-color: #fff;
+  padding-inline: 1.5rem;
+}
+
+.name-person-team {
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #012970;
+}
+
+.work-person-team {
+  color: #aaaaaa;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+.desc-person-team {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 25px;
+}
