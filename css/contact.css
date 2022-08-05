@@ -1,0 +1,54 @@
+.custom-card {
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: #fafbff;
+  /* background-color: red; */
+}
+
+.custom-card i {
+  font-size: 2.7rem;
+  color: #4154f1 !important;
+}
+
+.address-contact {
+  margin: 10px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.address-details {
+  font-weight: bold;
+}
+
+.input-group input,
+.form-floating textarea {
+  background-color: #fff !important;
+  border: 1px solid rgb(194, 194, 194) !important;
+  border-radius: 0 !important;
+}
+
+.form-floating textarea {
+  resize: none;
+}
+
+.input-group input::placeholder,
+.form-floating textarea + label {
+  color: rgb(150, 150, 150);
+}
+
+.input-group input,
+.input-group input:focus,
+.form-floating textarea,
+.form-floating textarea:focus {
+  box-shadow: none;
+}
+
+.input-group input::placeholder {
+  text-transform: capitalize;
+}
+
+.contact .row:nth-child(2) .col-lg-6:nth-child(2) {
+  padding: 2rem;
+  background-color: #fafbff;
+}
