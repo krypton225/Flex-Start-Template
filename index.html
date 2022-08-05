@@ -934,20 +934,26 @@
                 </div>
             </div>
 
-            <div class="col-lg-12 text-center text-capitalize fs-5 fw-bold d-flex justify-content-between">
-                <ul class="filter">
-                    <li class="all mr-4 active" data-filtering="all">all</li>
-                    <li class="app mx-4 border-0" data-filtering="app">app</li>
-                    <li class="my-my-card mx-4 border-0" data-filtering="my-card">card</li>
-                    <li class="web ml-4 border-0" data-filtering="web">web</li>
+            <!-- <div class="col-lg-12 text-center text-capitalize fs-5 fw-bold d-flex justify-content-between">
+                <ul class="filter-list">
+                    <li class="all mr-4 active" data-filter="all">all</li>
+                    <li class="app mx-4 border-0" data-filter="app">app</li>
+                    <li class="my-my-card mx-4 border-0" data-filter="my-card">card</li>
+                    <li class="web ml-4 border-0" data-filter="web">web</li>
                 </ul>
-            </div>
+            </div> -->
+
+            <!-- <div class="col-lg-12 text-center text-capitalize fs-5 fw-bold  filter-list">
+                <button class="border-0 text-capitalize fw-bold all filter-button active" data-filter="all">All</button>
+                <button class="border-0 text-capitalize fw-bold app filter-button" data-filter="app">app</button>
+                <button class="border-0 text-capitalize fw-bold cards filter-button" data-filter="cards">cards</button>
+                <button class="border-0 web text-capitalize fw-bold filter-button" data-filter="web">web</button>
+            </div> -->
 
             <div class="row mt-5 g-4">
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid app" alt="First Picture"
-                            data-img="app">
+                    <div class="my-img-portfolio filter app" data-img="app">
+                        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid app" alt="First Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 1</h6>
@@ -965,9 +971,9 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid web" alt="Second Picture"
-                            data-img="web">
+
+                    <div class="my-img-portfolio filter web" data-img="web">
+                        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid web" alt="Second Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 3</h6>
@@ -985,9 +991,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid app" alt="Third Picture"
-                            data-img="app">
+                    <div class="my-img-portfolio filter app" data-img="app">
+                        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid app" alt="Third Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 2</h6>
@@ -1005,9 +1010,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-4.jpg" class="img-fluid my-card" alt="Fourth Picture"
-                            data-img="my-card">
+                    <div class="my-img-portfolio filter my-card" data-img="my-card">
+                        <img src="images/portfolio/portfolio-4.jpg" class="img-fluid my-card" alt="Fourth Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 2</h6>
@@ -1025,9 +1029,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-5.jpg" class="img-fluid web" alt="Fifth Picture"
-                            data-img="web">
+                    <div class="my-img-portfolio filter web" data-img="web">
+                        <img src="images/portfolio/portfolio-5.jpg" class="img-fluid web" alt="Fifth Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 2</h6>
@@ -1045,9 +1048,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-6.jpg" class="img-fluid app" alt="Sixth Picture"
-                            data-img="app">
+                    <div class="my-img-portfolio filter app" data-img="app">
+                        <img src="images/portfolio/portfolio-6.jpg" class="img-fluid app" alt="Sixth Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 3</h6>
@@ -1065,9 +1067,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-7.jpg" class="img-fluid my-card" alt="Seventh Picture"
-                            data-img="my-card">
+                    <div class="my-img-portfolio filter my-card" data-img="my-card">
+                        <img src="images/portfolio/portfolio-7.jpg" class="img-fluid my-card" alt="Seventh Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 1</h6>
@@ -1085,9 +1086,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-8.jpg" class="img-fluid my-card" alt="Eight Picture"
-                            data-img="card">
+                    <div class="my-img-portfolio filter my-card" data-img="my-card">
+                        <img src="images/portfolio/portfolio-8.jpg" class="img-fluid my-card" alt="Eight Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 3</h6>
@@ -1105,9 +1105,8 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="my-img-portfolio">
-                        <img src="images/portfolio/portfolio-9.jpg" class="img-fluid web" alt="Ninth Picture"
-                            data-img="web">
+                    <div class="my-img-portfolio filter web" data-img="web">
+                        <img src="images/portfolio/portfolio-9.jpg" class="img-fluid web" alt="Ninth Picture">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 3</h6>

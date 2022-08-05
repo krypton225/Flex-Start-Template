@@ -11,3 +11,56 @@ document.querySelectorAll('button[data-bs-toggle="tab"]').forEach((t, i) => {
     pane.classList.add("active");
   });
 });
+
+// * ================================================================
+
+// * Make the portfolio.
+// let myListFilter = document.querySelectorAll("ul.filter-list li");
+// let getAllImages = document.querySelectorAll(".my-img-portfolio");
+
+// myListFilter.forEach((li) => {
+//   li.addEventListener("click", removeActiveAndPutInClickedBtn);
+//   li.addEventListener("click", showImages);
+// });
+
+// function removeActiveAndPutInClickedBtn() {
+//   myListFilter.forEach((li) => {
+//     li.classList.remove("active");
+//     this.classList.add("active");
+//   });
+// }
+
+// function showImages() {
+//   getAllImages.forEach((myImg) => {
+//     myImg.style.display = "none";
+//   });
+
+//   getAllImages.forEach((img) => {
+//     const filterValue = img.getAttribute("data-filter");
+
+//     console.log(filterValue);
+
+//     if (img.classList.contains(filterValue) || filterValue === "all") {
+//       img.classList.remove("hide-imgs");
+//       img.classList.add("visible-imgs");
+//     } else {
+//       img.classList.remove("hide-imgs");
+//       img.classList.add("visible-imgs");
+//     }
+//   });
+// }
+
+// myListFilter.forEach((li) => {
+//   li.addEventListener("click", removeActiveAndPutInClickedBtn);
+//   li.addEventListener("click", showImages);
+// });
+
+// function showImages() {
+//   getAllImages.forEach((img) => {
+//     img.style.display = "none";
+//   });
+
+//   document.querySelectorAll(this.dataset.filter).forEach((all) => {
+//     all.style.display = "block";
+//   });
+// }
