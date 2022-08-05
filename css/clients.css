@@ -28,6 +28,12 @@
   display: block;
   width: 70%;
   object-fit: cover;
+  filter: opacity(30%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.mySwiper2 .swiper-slide img:hover {
+  filter: none;
 }
 
 .mySwiper2 .swiper-pagination {
