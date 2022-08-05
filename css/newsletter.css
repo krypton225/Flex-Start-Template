@@ -32,16 +32,16 @@
 }
 
 input[type="text"] {
-  width: 85%;
+  width: 80%;
   padding: 4px;
   outline: none;
   border: none;
 }
 
 input[type="submit"] {
-  width: 15%;
+  width: 20%;
   height: 100%;
-  padding: 4px 10px;
+  padding: 4px 20px;
   display: flex;
   justify-content: center;
   align-items: center;

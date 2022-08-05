@@ -71,7 +71,7 @@ html {
 body {
   font-family: "Nunito", sans-serif !important;
   overflow-x: hidden;
-  /* height: 20000px; */
+  /* height: 30000px; */
 }
 
 a {
@@ -81,6 +81,11 @@ a {
 img {
   max-width: 100%;
   object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .pad-y-140 {
