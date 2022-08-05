@@ -1,0 +1,93 @@
+.testimonials {
+  padding-bottom: 120px;
+}
+
+.swiper {
+  width: 26rem;
+  height: 37rem;
+  margin-top: 5rem;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  padding: 4rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+}
+
+.fa-star {
+  color: #ffc107 !important;
+}
+
+.my-comment {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 24px;
+}
+
+.pic-person {
+  width: 85px;
+  height: 85px;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+.pic-person img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-person {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.job-person {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: rgb(77, 77, 77);
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 1.1rem;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.hand i {
+  font-size: 2rem;
+  animation-name: movingHand;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movingHand {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
