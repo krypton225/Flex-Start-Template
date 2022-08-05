@@ -84,7 +84,11 @@
   }
 
   50% {
-    transform: translateX(-50px);
+    transform: translateX(-70px);
+  }
+
+  75% {
+    transform: translateX(50px);
   }
 
   100% {
