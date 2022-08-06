@@ -1,3 +1,20 @@
+AOS.init({
+  offset: 120,
+  duration: 1200,
+  easing: "ease-in-out",
+  once: false,
+  mirror: false,
+  anchorPlacement: "top-bottom",
+});
+
+// window.addEventListener("resize", () => {
+//   let dataList = [].slice.call(document.querySelectorAll('data-spy="scroll"'));
+
+//   dataList.forEach((ds) => {
+//     bootstrap.ScrollSpy.getInstance(dataList);
+//   });
+// });
+
 document.querySelectorAll(".navbar-nav li").forEach((link) => {
   link.addEventListener("click", () => {
     document.getElementById("navbarNav").classList.remove("show");

@@ -18,8 +18,10 @@
     <link rel="icon" href="images/logo.png">
 
     <!-- * There are all main css files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <!-- * This is the swipper file -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -63,7 +65,7 @@
     <![endif]-->
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
+<body data-bs-spy="scroll" data-bs-target="#mainNavBar">
 
     <!-- * Start Navbar section -->
     <nav class="navbar navbar-expand-lg bg-transparent py-3 fixed-top" id="mainNavBar">
@@ -111,7 +113,7 @@
     <section class="home" id="home">
         <div class="container">
             <div class="row align-items-end justify-content-center">
-                <div class="col-lg-7 mt-5">
+                <div class="col-lg-7 mt-5" data-aos="fade-right">
                     <p class="display-3 fw-bold">We offer modern solutions for growing your business</p>
                     <p class="display-5 fw-semibold">We are team of talented designers making websites with Bootstrap
                     </p>
@@ -121,8 +123,9 @@
                     </a> <!-- ./btn -->
                 </div> <!-- ./col-lg-7 -->
 
-                <div class="col-lg-5 align-items-end mt-5">
-                    <img src="images/hero-img.png" class="img-fluid mt-4" alt="Hero Image of the section!">
+                <div class="col-lg-5 align-items-end mt-5" data-aos="fade-left">
+                    <img src="images/hero-img.png" class="img-fluid mt-4" alt="Hero Image of the section!"
+                        draggable="false">
                 </div> <!-- ./col-lg-5 -->
             </div> <!-- ./row -->
         </div> <!-- ./container -->
@@ -132,7 +135,7 @@
     <section class="about pad-y-140" id="about">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up">
                     <p class="fw-bold text-uppercase">who we are</p>
                     <p class="fw-bold w-100">
                         Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti
@@ -148,8 +151,9 @@
                         <i class="fas fa-long-arrow-alt-right ms-3"></i>
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/about-sec.jpg" class="img-fluid" alt="There are our team picture!">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="images/about-sec.jpg" class="img-fluid" alt="There are our team picture!"
+                        draggable="false">
                 </div>
             </div>
         </div>
@@ -167,23 +171,23 @@
 
             <div class="container overflow-hidden">
                 <div class="row gy-5 gx-3 mt-5 justify-content-between align-items-center">
-                    <div
-                        class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5">
-                        <img src="images/values-1.png" class="img-fluid" alt="A first value picture">
+                    <div class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5"
+                        data-aos="flip-right">
+                        <img src="images/values-1.png" class="img-fluid" alt="A first value picture" draggable="false">
                         <h5 class="fs-2 fw-bold color-dark mt-5">Ad cupiditate sed est odio</h5>
                         <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                     </div>
 
-                    <div
-                        class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5">
-                        <img src="images/values-2.png" class="img-fluid" alt="A second value picture">
+                    <div class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5"
+                        data-aos="flip-right">
+                        <img src="images/values-2.png" class="img-fluid" alt="A second value picture" draggable="false">
                         <h5 class="fs-2 fw-bold color-dark mt-5">Voluptatem voluptatum alias</h5>
                         <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
                     </div>
 
-                    <div
-                        class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5">
-                        <img src="images/values-3.png" class="img-fluid" alt="A third value picture">
+                    <div class="col-lg-4 text-center d-flex justify-content-center align-items-center flex-column my-card py-5"
+                        data-aos="flip-right">
+                        <img src="images/values-3.png" class="img-fluid" alt="A third value picture" draggable="false">
                         <h5 class="fs-2 fw-bold color-dark mt-5">Fugit cupiditate alias nobis.</h5>
                         <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                     </div>
@@ -197,7 +201,7 @@
 
         <div class="container overflow-hidden mt-4">
             <div class="row gy-5 gx-4 text-center">
-                <div class="col-lg-3 col-md-6 small-card">
+                <div class="col-lg-3 col-md-6 small-card" data-aos="zoom-out-right" data-aos-duration="800">
                     <div class="count-content p-4">
                         <i class="far fa-smile color-dark"></i>
                         <div class="left-count">
@@ -207,7 +211,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 small-card">
+                <div class="col-lg-3 col-md-6 small-card" data-aos="zoom-out-right" data-aos-duration="800">
                     <div class="count-content p-4">
                         <i class="fas fa-journal-whills" style="color: #ee6c20;"></i>
                         <div class="left-count">
@@ -217,7 +221,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 small-card">
+                <div class="col-lg-3 col-md-6 small-card" data-aos="zoom-out-left" data-aos-duration="800">
                     <div class="count-content p-4">
                         <i class="fas fa-headset" style="color: #15be56;"></i>
                         <div class="left-count">
@@ -227,7 +231,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 small-card">
+                <div class="col-lg-3 col-md-6 small-card" data-aos="zoom-out-left" data-aos-duration="800">
                     <div class="count-content p-4">
                         <i class="fas fa-user-friends" style="color: #bb0852;"></i>
                         <div class="left-count">
@@ -253,11 +257,12 @@
             </div>
 
             <div class="row align-items-center mt-5">
-                <div class="col-lg-6">
-                    <img src="images/features.png" alt="Features Picture" class="img-fluid">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <img src="images/features.png" alt="Features Picture" class="img-fluid" draggable="false">
                 </div>
 
-                <div class="col-lg-6 py-5 g-4 cont-feat">
+                <div class="col-lg-6 py-5 g-4 cont-feat" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <div class="one-feat">
@@ -326,7 +331,7 @@
     <section class="second-about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <p class="fs-1 display-3 fw-bold color-dark">Neque officiis dolore maiores et exercitationem quae
                         est seda lidera <br> pat claero</p>
 
@@ -457,8 +462,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <img src="images/features-2.png" class="img-fluid" alt="Features 2 Picture!">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <img src="images/features-2.png" class="img-fluid" alt="Features 2 Picture!" draggable="false">
                 </div>
             </div>
         </div>
@@ -476,11 +481,11 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="images/features-3.png" alt="Features third Picture!" class="img-fluid">
+                <div class="col-lg-4" data-aos="zoom-in-down">
+                    <img src="images/features-3.png" alt="Features third Picture!" class="img-fluid" draggable="false">
                 </div>
 
-                <div class="col-lg-8 gx-5">
+                <div class="col-lg-8 gx-5" data-aos="fade-left">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="feat3 color-dark">
@@ -564,7 +569,7 @@
             </div>
 
             <div class="row text-center">
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-first bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -581,7 +586,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-second bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -598,7 +603,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-third bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -615,7 +620,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-fourth bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -632,7 +637,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-fifth bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -649,7 +654,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 gx-1 gy-5">
+                <div class="col-lg-4 col-md-6 gx-1 gy-5" data-aos="flip-down" data-aos-duration="1400">
                     <div class="service ser-sixth bx-shadow">
                         <div class="icon">
                             <i class="far fa-comments"></i>
@@ -680,7 +685,7 @@
             </div>
 
             <div class="row gy-5 gx-4 text-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-right">
                     <div class="price bx-shadow">
                         <p class="title-plan">free plan</p>
 
@@ -693,7 +698,8 @@
                         </div>
 
                         <div class="img-price">
-                            <img src="images/pricing-free.png" alt="Price Free Photo!" class="img-fluid w-75 mt-3 mb-5">
+                            <img src="images/pricing-free.png" alt="Price Free Photo!" class="img-fluid w-75 mt-3 mb-5"
+                                draggable="false">
                         </div>
 
                         <ul class="price-list list-unstyled">
@@ -708,7 +714,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-right">
                     <div class="price bx-shadow">
                         <p class="title-plan starter-title">starter plan</p>
 
@@ -722,7 +728,7 @@
 
                         <div class="img-price">
                             <img src="images/pricing-starter.png" alt="Price Free Photo!"
-                                class="img-fluid w-75 mt-3 mb-5">
+                                class="img-fluid w-75 mt-3 mb-5" draggable="false">
                         </div>
 
                         <ul class="price-list list-unstyled">
@@ -737,7 +743,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-left">
                     <div class="price bx-shadow">
                         <p class="title-plan business-title">business plan</p>
 
@@ -751,7 +757,7 @@
 
                         <div class="img-price">
                             <img src="images/pricing-business.png" alt="Price Free Photo!"
-                                class="img-fluid w-75 mt-3 mb-5">
+                                class="img-fluid w-75 mt-3 mb-5" draggable="false">
                         </div>
 
                         <ul class="price-list list-unstyled">
@@ -766,7 +772,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="fade-left">
                     <div class="price bx-shadow">
                         <p class="title-plan ultimate-title">ultimate plan</p>
 
@@ -780,7 +786,7 @@
 
                         <div class="img-price">
                             <img src="images/pricing-ultimate.png" alt="Price Free Photo!"
-                                class="img-fluid w-75 mt-3 mb-5">
+                                class="img-fluid w-75 mt-3 mb-5" draggable="false">
                         </div>
 
                         <ul class="price-list list-unstyled">
@@ -961,9 +967,10 @@
             </div> -->
 
             <div class="row mt-5 g-4">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter app" data-img="app">
-                        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid app" alt="First Picture">
+                        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid app" alt="First Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 1</h6>
@@ -980,10 +987,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
 
                     <div class="my-img-portfolio filter web" data-img="web">
-                        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid web" alt="Second Picture">
+                        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid web" alt="Second Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 3</h6>
@@ -1000,9 +1008,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter app" data-img="app">
-                        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid app" alt="Third Picture">
+                        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid app" alt="Third Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 2</h6>
@@ -1019,9 +1028,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter my-card" data-img="my-card">
-                        <img src="images/portfolio/portfolio-4.jpg" class="img-fluid my-card" alt="Fourth Picture">
+                        <img src="images/portfolio/portfolio-4.jpg" class="img-fluid my-card" alt="Fourth Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 2</h6>
@@ -1038,9 +1048,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter web" data-img="web">
-                        <img src="images/portfolio/portfolio-5.jpg" class="img-fluid web" alt="Fifth Picture">
+                        <img src="images/portfolio/portfolio-5.jpg" class="img-fluid web" alt="Fifth Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 2</h6>
@@ -1057,9 +1068,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter app" data-img="app">
-                        <img src="images/portfolio/portfolio-6.jpg" class="img-fluid app" alt="Sixth Picture">
+                        <img src="images/portfolio/portfolio-6.jpg" class="img-fluid app" alt="Sixth Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">app 3</h6>
@@ -1076,9 +1088,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter my-card" data-img="my-card">
-                        <img src="images/portfolio/portfolio-7.jpg" class="img-fluid my-card" alt="Seventh Picture">
+                        <img src="images/portfolio/portfolio-7.jpg" class="img-fluid my-card" alt="Seventh Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 1</h6>
@@ -1095,9 +1108,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter my-card" data-img="my-card">
-                        <img src="images/portfolio/portfolio-8.jpg" class="img-fluid my-card" alt="Eight Picture">
+                        <img src="images/portfolio/portfolio-8.jpg" class="img-fluid my-card" alt="Eight Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">card 3</h6>
@@ -1114,9 +1128,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-out-up">
                     <div class="my-img-portfolio filter web" data-img="web">
-                        <img src="images/portfolio/portfolio-9.jpg" class="img-fluid web" alt="Ninth Picture">
+                        <img src="images/portfolio/portfolio-9.jpg" class="img-fluid web" alt="Ninth Picture"
+                            draggable="false">
 
                         <div class="details-portfolio">
                             <h6 class="img-title-portfolio">web 3</h6>
@@ -1166,7 +1181,7 @@
                                 </p>
 
                                 <div class="pic-person">
-                                    <img src="images/testimonials/testimonials-1.jpg" alt="Person">
+                                    <img src="images/testimonials/testimonials-1.jpg" alt="Person" draggable="false">
                                 </div>
 
                                 <h6 class="name-person">Matt Brandon</h6>
@@ -1189,7 +1204,7 @@
                                 </p>
 
                                 <div class="pic-person">
-                                    <img src="images/testimonials/testimonials-2.jpg" alt="Person">
+                                    <img src="images/testimonials/testimonials-2.jpg" alt="Person" draggable="false">
                                 </div>
 
                                 <h6 class="name-person">John Larson</h6>
@@ -1212,7 +1227,7 @@
                                 </p>
 
                                 <div class="pic-person">
-                                    <img src="images/testimonials/testimonials-3.jpg" alt="Person">
+                                    <img src="images/testimonials/testimonials-3.jpg" alt="Person" draggable="false">
                                 </div>
 
                                 <h6 class="name-person">Edward</h6>
@@ -1235,7 +1250,7 @@
                                 </p>
 
                                 <div class="pic-person">
-                                    <img src="images/testimonials/testimonials-4.jpg" alt="Person">
+                                    <img src="images/testimonials/testimonials-4.jpg" alt="Person" draggable="false">
                                 </div>
 
                                 <h6 class="name-person">Saul Goodman</h6>
@@ -1258,7 +1273,7 @@
                                 </p>
 
                                 <div class="pic-person">
-                                    <img src="images/testimonials/testimonials-5.jpg" alt="Person">
+                                    <img src="images/testimonials/testimonials-5.jpg" alt="Person" draggable="false">
                                 </div>
 
                                 <h6 class="name-person">Matt Kroos</h6>
@@ -1287,13 +1302,13 @@
             </div>
 
             <div class="row mt-5 gy-5 gx-4 text-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-out-up">
                     <div class="person-team bx-shadow">
                         <div class="pic-team-person">
-                            <img src="images/team/team-1.jpg" alt="Person of team">
+                            <img src="images/team/team-1.jpg" alt="Person of team" draggable="false">
 
                             <div class="shape-team-pic">
-                                <img src="images/team-shape.svg" alt="Team Shape">
+                                <img src="images/team-shape.svg" alt="Team Shape" draggable="false">
                             </div>
 
                             <div class="social-team-person">
@@ -1317,13 +1332,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-out-up">
                     <div class="person-team bx-shadow">
                         <div class="pic-team-person">
-                            <img src="images/team/team-2.jpg" alt="Person of team">
+                            <img src="images/team/team-2.jpg" alt="Person of team" draggable="false">
 
                             <div class="shape-team-pic">
-                                <img src="images/team-shape.svg" alt="Team Shape">
+                                <img src="images/team-shape.svg" alt="Team Shape" draggable="false">
                             </div>
 
                             <div class="social-team-person">
@@ -1347,13 +1362,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-out-up">
                     <div class="person-team bx-shadow">
                         <div class="pic-team-person">
-                            <img src="images/team/team-3.jpg" alt="Person of team">
+                            <img src="images/team/team-3.jpg" alt="Person of team" draggable="false">
 
                             <div class="shape-team-pic">
-                                <img src="images/team-shape.svg" alt="Team Shape">
+                                <img src="images/team-shape.svg" alt="Team Shape" draggable="false">
                             </div>
 
                             <div class="social-team-person">
@@ -1377,13 +1392,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-out-up">
                     <div class="person-team bx-shadow">
                         <div class="pic-team-person">
-                            <img src="images/team/team-4.jpg" alt="Person of team">
+                            <img src="images/team/team-4.jpg" alt="Person of team" draggable="false">
 
                             <div class="shape-team-pic">
-                                <img src="images/team-shape.svg" alt="Team Shape">
+                                <img src="images/team-shape.svg" alt="Team Shape" draggable="false">
                             </div>
 
                             <div class="social-team-person">
@@ -1424,28 +1439,28 @@
                 <div class="swiper mySwiper2 p-0 mt-0">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="images/clients/client-1.png" alt="">
+                            <img src="images/clients/client-1.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-2.png" alt="">
+                            <img src="images/clients/client-2.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-3.png" alt="">
+                            <img src="images/clients/client-3.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-4.png" alt="">
+                            <img src="images/clients/client-4.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-5.png" alt="">
+                            <img src="images/clients/client-5.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-6.png" alt="">
+                            <img src="images/clients/client-6.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-7.png" alt="">
+                            <img src="images/clients/client-7.png" alt="My Client" draggable="false">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/clients/client-8.png" alt="">
+                            <img src="images/clients/client-8.png" alt="My Client" draggable="false">
                         </div>
                     </div>
 
@@ -1466,10 +1481,10 @@
             </div>
 
             <div class="row gx-4 gy-5 mt-5 justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="700">
                     <div class="blogging bx-shadow">
                         <div class="img-blog">
-                            <img src="images/blog/blog-1.jpg" alt="Blog pic 1">
+                            <img src="images/blog/blog-1.jpg" alt="Blog pic 1" draggable="false">
                         </div>
 
                         <div class="blog-info">
@@ -1487,10 +1502,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1100">
                     <div class="blogging bx-shadow">
                         <div class="img-blog">
-                            <img src="images/blog/blog-2.jpg" alt="Blog pic 2">
+                            <img src="images/blog/blog-2.jpg" alt="Blog pic 2" draggable="false">
                         </div>
 
                         <div class="blog-info">
@@ -1508,10 +1523,10 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1300">
                     <div class="blogging bx-shadow">
                         <div class="img-blog">
-                            <img src="images/blog/blog-3.jpg" alt="Blog pic 3">
+                            <img src="images/blog/blog-3.jpg" alt="Blog pic 3" draggable="false">
                         </div>
 
                         <div class="blog-info">
@@ -1545,7 +1560,7 @@
             <div class="row gx-5 gy-4 mt-5">
                 <div class="col-lg-6">
                     <div class="row gx-3 gy-4">
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="flip-down" data-aos-delay="1000" data-aos-easing="ease-in-quad">
                             <div class="custom-card">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <p class="address-contact">address</p>
@@ -1553,7 +1568,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="flip-down" data-aos-delay="1000" data-aos-easing="ease-in-quad">
                             <div class="custom-card">
                                 <i class="fas fa-phone-alt"></i>
                                 <p class="address-contact">call</p>
@@ -1565,7 +1580,8 @@
                         </div>
                     </div>
 
-                    <div class="row mt-2 gx-3 gy-4">
+                    <div class="row mt-2 gx-3 gy-4" data-aos="flip-down" data-aos-delay="1000"
+                        data-aos-easing="ease-in-quad">
                         <div class="col-md-6">
                             <div class="custom-card">
                                 <i class="far fa-envelope"></i>
@@ -1577,7 +1593,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="flip-down" data-aos-delay="1000" data-aos-easing="ease-in-quad">
                             <div class="custom-card">
                                 <i class="far fa-clock"></i>
                                 <p class="address-contact">open hours</p>
@@ -1590,7 +1606,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1100">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="input-group mb-3 input-group-lg">
@@ -1662,7 +1678,7 @@
             <div class="row gy-5 gx-4">
                 <div class="col-lg-6">
                     <a class="navbar-brand logo-footer" href="#">
-                        <img src="images/logo.png" alt="Logo image of the flex start!" class="w-25">
+                        <img src="images/logo.png" alt="Logo image of the flex start!" class="w-25" draggable="false">
                         <span class="logo">Flex Start</span>
                     </a>
 
@@ -1750,7 +1766,11 @@
     </footer> <!-- ./footer -->
 
     <!-- * All my script files -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
