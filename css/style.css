@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -55,6 +56,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -79,6 +81,7 @@ a {
 
 img {
   max-width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -93,6 +96,7 @@ ul {
 }
 
 .bx-shadow {
+  -webkit-box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
   box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
 }
 
@@ -108,6 +112,7 @@ ul {
 
 .btn:focus {
   outline: none !important;
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 

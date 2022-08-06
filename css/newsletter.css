@@ -21,14 +21,19 @@
 
 .input-newsletter {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   padding: 5px !important;
   border-radius: 5px;
   background-color: white;
-  /* background-color: red; */
 }
 
 input[type="text"] {
@@ -42,8 +47,14 @@ input[type="submit"] {
   width: 20%;
   height: 100%;
   padding: 4px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 1.3rem;
 }

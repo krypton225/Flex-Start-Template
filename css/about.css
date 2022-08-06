@@ -24,11 +24,15 @@
 }
 
 .about .row .col-lg-6 img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 @media (max-width: 991px) {
   .about .row .col-lg-6 img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
     transform: scale(1);
   }
 }

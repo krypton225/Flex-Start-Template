@@ -1,12 +1,19 @@
 #mainNavBar {
   z-index: 1000;
   background-color: white !important;
+  -webkit-box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
   box-shadow: 0 2px 13px 10px rgba(0, 0, 0, 0.034);
 }
 
 .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -22,6 +29,7 @@
 
 .navbar-toggler:focus {
   outline: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -45,6 +53,8 @@
   position: absolute;
   bottom: 5px;
   left: 5px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
@@ -56,6 +66,8 @@
   position: absolute;
   bottom: 5px;
   right: 5px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 

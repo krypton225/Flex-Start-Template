@@ -2,20 +2,30 @@
   height: 38rem;
   border: 1px solid #f1f1f1;
   border-radius: 4px;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 42, 112, 0.034);
   box-shadow: 0px 0 30px rgba(1, 42, 112, 0.034);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .my-card:hover {
+  -webkit-box-shadow: 0 1px 4px 1px rgba(49, 49, 49, 0.082);
   box-shadow: 0 1px 4px 1px rgba(49, 49, 49, 0.082);
 }
 
 .our-values .row .col-lg-4 img {
   width: 56%;
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  -o-transition: transform 0.4s ease-in;
   transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
 }
 
 .my-card:hover img {
+  -webkit-transform: scale(1.12);
+  -ms-transform: scale(1.12);
   transform: scale(1.12);
 }
 

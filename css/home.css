@@ -39,10 +39,15 @@
 }
 
 .home .col-lg-5 img {
+  -webkit-animation-name: animate-home-pic;
   animation-name: animate-home-pic;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-delay: 0;
   animation-delay: 0;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -51,37 +56,82 @@
 }
 
 .fa-long-arrow-alt-right {
+  -webkit-animation-name: animate-arrow;
   animation-name: animate-arrow;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: 0;
   animation-delay: 0;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-@keyframes animate-arrow {
+@-webkit-keyframes animate-arrow {
   0% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
   50% {
+    -webkit-transform: translateX(-6px);
     transform: translateX(-6px);
   }
 
   100% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
+  }
+}
+
+@keyframes animate-arrow {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes animate-home-pic {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes animate-home-pic {
   0% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
   50% {
+    -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 
   100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }

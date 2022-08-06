@@ -5,10 +5,16 @@
 .person-team {
   padding-bottom: 2rem;
   border-radius: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
 .person-team:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -19,6 +25,7 @@
 
 .pic-team-person img {
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -39,16 +46,29 @@
   width: 3.3rem;
   height: 60%;
   border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: absolute;
   right: -20%;
   top: 11%;
   background: rgba(255, 255, 255, 0.712) !important;
   font-size: 1.3rem;
+  -webkit-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
   transform: translateX(-10%);
+  -webkit-transition: right 0.3s ease-in 0.2s;
+  -o-transition: right 0.3s ease-in 0.2s;
   transition: right 0.3s ease-in 0.2s;
 }
 

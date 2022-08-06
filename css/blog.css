@@ -11,7 +11,11 @@
 }
 
 .img-blog img {
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  -o-transition: transform 0.3s ease-in;
   transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
 }
 
 .img-blog,
@@ -21,6 +25,8 @@
 }
 
 .blogging:hover .img-blog img {
+  -webkit-transform: scale(1.1) rotate(5deg);
+  -ms-transform: scale(1.1) rotate(5deg);
   transform: scale(1.1) rotate(5deg);
 }
 

@@ -1,8 +1,14 @@
 .filter-list {
   margin: 2.5rem auto;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   list-style: none;
 }
@@ -14,6 +20,8 @@
   padding: 0.4rem 1.4rem !important;
   letter-spacing: 1.6px;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
@@ -22,6 +30,8 @@
   border: 1px solid #4154f1 !important;
   border-radius: 100px !important;
   color: #4154f1 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
@@ -44,6 +54,8 @@
   opacity: 0;
   background-color: transparent;
   z-index: 2;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -77,12 +89,19 @@
 
 .my-img-portfolio img {
   height: 100% !important;
+  -o-object-fit: cover !important;
   object-fit: cover !important;
   border-radius: 6px;
+  -webkit-transition: -webkit-transform 0.44s ease-in;
+  transition: -webkit-transform 0.44s ease-in;
+  -o-transition: transform 0.44s ease-in;
   transition: transform 0.44s ease-in;
+  transition: transform 0.44s ease-in, -webkit-transform 0.44s ease-in;
 }
 
 .my-img-portfolio:hover img {
+  -webkit-transform: scale(1.17);
+  -ms-transform: scale(1.17);
   transform: scale(1.17);
 }
 
@@ -90,9 +109,18 @@
   width: 100%;
   height: 100%;
   border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: absolute;
   top: 0;
@@ -102,6 +130,8 @@
   visibility: hidden;
   opacity: 0;
   z-index: 10;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -120,8 +150,14 @@
 .links-portfolio {
   width: 30%;
   margin: 0.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -130,8 +166,14 @@
   height: 35px;
   padding: 1.2rem;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #4154f1;
 }

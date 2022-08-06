@@ -7,13 +7,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: cadetblue; */
 }
 
 .logo-footer {
   width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-left: 2.2rem;
 }
@@ -41,6 +46,8 @@
   margin-inline: 10px;
   font-size: 1.8rem;
   color: #012970 !important;
+  -webkit-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in;
 }
 

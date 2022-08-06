@@ -1,15 +1,26 @@
 .count-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-radius: 5px;
+  -webkit-box-shadow: 0px 0 30px rgba(1, 42, 112, 0.034);
   box-shadow: 0px 0 30px rgba(1, 42, 112, 0.034);
   background-color: white;
 }
 
 @media (max-width: 768px) {
   .count-content {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
