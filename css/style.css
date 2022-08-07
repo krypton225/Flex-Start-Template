@@ -71,6 +71,7 @@ html {
 }
 
 body {
+  position: relative !important;
   font-family: "Nunito", sans-serif !important;
   overflow-x: hidden;
 }
